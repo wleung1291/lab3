@@ -51,6 +51,7 @@ function projectClick(e) {
        $(containingProject).append("<div class='project-description'><p>Description of the project.</p></div>");
     } 
     else {
+		// toggle description
 		$(this).click(function(e) {
   			$( ".project-description" ).toggle();
 		});
